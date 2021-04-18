@@ -1,11 +1,11 @@
 {
-  "name": "xcalendar-core",
+  "name": "x-calendar-core",
   "version": "1.0.0",
   "description": "> TODO: description",
-  "author": "xjiaxiang <xjiaxiang_86@163.com>",
+  "author": "向家祥 <xjiaxiang_86@163.com>",
   "homepage": "https://github.com/x-ideas/xCalendar#readme",
   "license": "ISC",
-  "main": "lib/xCalendar.js",
+  "main": "lib/x-calendar-core.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -22,8 +22,5 @@
   },
   "bugs": {
     "url": "https://github.com/x-ideas/xCalendar/issues"
-  },
-  "dependencies": {
-    "tailwindcss": "^1.9.6"
   }
 }
