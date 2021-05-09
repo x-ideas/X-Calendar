@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './assets/styles/tailwindcss.css';
+import { XCalendarDay } from './components/calendar-day/stories';
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <XCalendarDay></XCalendarDay>
     </div>
   );
 }
