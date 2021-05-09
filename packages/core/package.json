@@ -1,5 +1,5 @@
 {
-  "name": "x-calendar-core",
+  "name": "@x-calendar/core",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "向家祥 <xjiaxiang_86@163.com>",
@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/x-ideas/xCalendar/issues"
+  },
+  "devDependencies": {
+    "storybook": "^6.2.8"
   }
 }

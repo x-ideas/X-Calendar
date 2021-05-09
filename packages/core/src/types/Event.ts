@@ -1,4 +1,4 @@
-import { ICalendarTime } from './Time';
+import { ICalendarTime } from './time';
 
 /**
  * 事件的状态
@@ -60,10 +60,10 @@ export interface ICalendarEvent {
    * 详情
    */
   description: string;
-  /**
-   * 颜色信息
-   */
-  colorId: string;
+  // /**
+  //  * 颜色信息
+  //  */
+  // colorId: string;
 
   /**
    * 开始时间

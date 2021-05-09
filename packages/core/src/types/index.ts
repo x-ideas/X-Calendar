@@ -1,3 +1,3 @@
-export * from './Event';
-export * from './Resource';
-export * from './Time';
+export * from './event';
+export * from './resource';
+export * from './time';

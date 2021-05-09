@@ -22,5 +22,11 @@
   },
   "bugs": {
     "url": "https://github.com/x-ideas/xCalendar/issues"
+  },
+  "devDependencies": {
+    "storybook": "^6.2.8"
+  },
+  "dependencies": {
+    "@x-calendar/core": "^1.0.0"
   }
 }
