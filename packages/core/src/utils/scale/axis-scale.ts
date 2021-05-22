@@ -18,12 +18,12 @@ export interface IAxisScale<DomainValue = number> {
   range(): number[];
 
   /**
-   *
-   * @param {DomainValue} domain x的值
+   * 从dValue计算出对应的值y
+   * @param {DomainValue} dValue x的值
    * @returns {(RangeValue | number)}
    * @memberof IScaleInterface
    */
-  getRangeValue(domain: DomainValue): number | undefined;
+  getRangeValue(dValue: DomainValue): number | undefined;
 
   /**
    * 针对于category类型的数据，需要知道每个的宽度
