@@ -3,4 +3,5 @@
 
 PATH="/usr/local/bin:$PATH"
 npm test
-npx lint-staged
+npm run lint-staged
+
