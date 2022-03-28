@@ -19,5 +19,14 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     'no-underscore-dangle': 'off',
+    'import/prefer-default-export': 'off',
+    'import/extensions': 'off',
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
+      },
+    },
   },
 };
