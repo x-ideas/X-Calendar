@@ -8,7 +8,9 @@
     "lerna": "lerna",
     "jest": "jest --passWithNoTests",
     "prepare": "husky install",
-    "lint-staged": "lint-staged"
+    "lint-staged": "lint-staged",
+    "start": "vite",
+    "build": "tsc && vite build"
   },
   "keywords": [],
   "author": "",
@@ -37,6 +39,10 @@
     "prettier": "^2.1.2",
     "ts-node": "^9.0.0",
     "tsconfig-paths": "^3.9.0",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "vite": "^2.8.6"
+  },
+  "dependencies": {
+    "lit": "^2.2.1"
   }
 }
