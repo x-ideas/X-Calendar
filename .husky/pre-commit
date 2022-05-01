@@ -2,6 +2,6 @@
 . "$(dirname "$0")/_/husky.sh"
 
 PATH="/usr/local/bin:$PATH"
-npm test
-npm run lint-staged
+pnpm test
+pnpm run lint-staged
 
