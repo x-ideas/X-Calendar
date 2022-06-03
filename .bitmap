@@ -13,7 +13,7 @@
     "scope": "",
     "version": "",
     "mainFile": "src/index.ts",
-    "rootDir": "packages/state"
+    "rootDir": "packages/core/state"
   },
   "$schema-version": "14.9.0"
 }
