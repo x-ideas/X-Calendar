@@ -58,6 +58,17 @@
        * uncomment to apply the chosen environment on all components.
        **/
       // "teambit.react/react": { }
+      "teambit.pkg/pkg": {
+        // "packageManagerPublishArgs": [
+        //   "--access public"
+        // ],
+        "packageJson": {
+          "name": "@x-calendar/{name}",
+          "publishConfig": {
+            "access": "public"
+          }
+        }
+      }
     }
   }
 }

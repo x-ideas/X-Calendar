@@ -102,6 +102,12 @@ importers:
     devDependencies:
       '@types/d3-interpolate': 3.0.1
 
+  packages/core/context:
+    specifiers:
+      '@x-calendar/state': workspace:^1.0.0
+    dependencies:
+      '@x-calendar/state': link:../state
+
   packages/core/log:
     specifiers:
       '@types/debug': ^4.1.7
