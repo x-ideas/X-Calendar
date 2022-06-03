@@ -9,5 +9,11 @@
  */
 
 {
-    "$schema-version": "14.9.0"
+  "state": {
+    "scope": "",
+    "version": "",
+    "mainFile": "src/index.ts",
+    "rootDir": "packages/state"
+  },
+  "$schema-version": "14.9.0"
 }
