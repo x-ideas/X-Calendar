@@ -6,6 +6,8 @@
   "scripts": {
     "test": "npm run jest",
     "jest": "jest --passWithNoTests",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx packages",
+    "eslint:fix": "pnpm run eslint --fix",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
     "publish": "npx chromatic --project-token=d16a111137a2"
@@ -29,8 +31,10 @@
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-compat": "^4.0.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^4.5.0",
     "husky": "^7.0.4",
