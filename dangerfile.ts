@@ -23,3 +23,5 @@ if (packageChanged && !lockfileChanged) {
       'in pnmp-lock.yaml. Make sure you’re using pnpm 7+.'
   );
 }
+
+//
