@@ -1,4 +1,12 @@
 packages:
   - packages/*
+  # 核心组件(state, context)
   - packages/core/*
+  # 提供webcomponents相关的组件
+  - packages/webcomponents/*
+  # 提供react框架相关的组件
+  - packages/react/*
+  # 示例代码
   - examples/*
+  # danger plugin的插件
+  - packages/danger-plugins/*
