@@ -1,8 +1,8 @@
 module.exports = {
   tabWidth: 2,
   semi: true,
-  printWidth: 150,
+  printWidth: 80,
   singleQuote: true,
   jsxSingleQuote: false,
   arrowParens: 'avoid',
-}
+};

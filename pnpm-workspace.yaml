@@ -1,0 +1,15 @@
+packages:
+  - packages/*
+  # 核心组件(state, context)
+  - packages/core/*
+  # 提供webcomponents相关的组件
+  - packages/webcomponents/*
+  # 提供react框架相关的组件
+  - packages/react/*
+  # 系统提供的插件
+  - packages/plugins/*
+  # 示例代码
+  - examples/*
+
+  # 项目运行相关的支持
+  - packages/supports/*

@@ -1,0 +1,23 @@
+{
+  "name": "lit-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "build": "tsc && vite build",
+    "tailwindcss:watch": "npx tailwindcss -i ./src/assets/styles/tailwinds/input.css -o ./src/assets/styles/tailwinds/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "d3-interpolate": "^3.0.1",
+    "lit": "^2.2.1",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/d3-interpolate": "^3.0.1"
+  }
+}
