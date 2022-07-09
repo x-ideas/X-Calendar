@@ -9,11 +9,23 @@
  */
 
 {
-  "state": {
-    "scope": "",
-    "version": "",
-    "mainFile": "src/index.ts",
-    "rootDir": "packages/core/state"
-  },
-  "$schema-version": "14.9.0"
+    "context": {
+        "scope": "",
+        "version": "",
+        "mainFile": "src/index.ts",
+        "rootDir": "packages/core/context"
+    },
+    "log": {
+        "scope": "",
+        "version": "",
+        "mainFile": "src/index.ts",
+        "rootDir": "packages/core/log"
+    },
+    "state": {
+        "scope": "",
+        "version": "",
+        "mainFile": "src/index.ts",
+        "rootDir": "packages/core/state"
+    },
+    "$schema-version": "14.9.0"
 }

@@ -5,3 +5,4 @@ PATH="/usr/local/bin:$PATH"
 pnpm test
 pnpm run lint-staged
 
+# pnpm run danger:local

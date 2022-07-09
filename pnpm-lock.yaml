@@ -81,6 +81,19 @@ importers:
       typescript: 4.6.3
       vite: 2.8.6
 
+  examples/lit-example:
+    specifiers:
+      '@types/d3-interpolate': ^3.0.1
+      d3-interpolate: ^3.0.1
+      lit: ^2.2.1
+      lodash-es: ^4.17.21
+    dependencies:
+      d3-interpolate: 3.0.1
+      lit: 2.2.1
+      lodash-es: 4.17.21
+    devDependencies:
+      '@types/d3-interpolate': 3.0.1
+
   examples/log-example:
     specifiers:
       '@x-calendar/log': workspace:^1.0.0
@@ -127,10 +140,16 @@ importers:
     dependencies:
       deep-state-observer: 5.5.9
 
-  packages/danger-plugins:
+  packages/supports/danger-plugins:
     specifiers: {}
 
-  packages/timeline:
+  packages/webcomponents/calender:
+    specifiers: {}
+
+  packages/webcomponents/gannt:
+    specifiers: {}
+
+  packages/webcomponents/timeline:
     specifiers: {}
 
 packages:

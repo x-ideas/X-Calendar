@@ -1,5 +1,5 @@
 {
-  "name": "x-calendar",
+  "name": "x-scheduler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,8 @@
     "eslint:fix": "pnpm run eslint --fix",
     "prepare": "husky install",
     "lint-staged": "lint-staged",
-    "publish": "npx chromatic --project-token=d16a111137a2"
+    "chromatic:publish": "npx chromatic --project-token=d16a111137a2",
+    "danger:local": "pnpm danger local"
   },
   "keywords": [],
   "author": "",
